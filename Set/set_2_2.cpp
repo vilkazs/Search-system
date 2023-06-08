@@ -7,9 +7,9 @@ using namespace std;
 
 set<string> VectorToSet(vector<string> vector) {
     
-    set<string> set_string;
+    /*set<string> set_string;
     
-    /*for (string word : vector) {
+    for (string word : vector) {
         set_string.insert(word);
     }*/
 	set<string> set_string(vector.begin(), vector.end());
